@@ -43,6 +43,8 @@ body {
     margin: auto;
     top: 10%;
     position: relative;
+    background-color: white;
+    padding-top: 2rem;
 }
 
 .main-center, .text{
@@ -52,8 +54,17 @@ body {
     left: 0;
     right: 0;
     text-align: center;
-    color: white;
 }
+
+.text, .apply{
+    width: 70%;
+    background-color: #fff;
+    padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
 .apply{
     background-color: #3a3399;
     border: none;
