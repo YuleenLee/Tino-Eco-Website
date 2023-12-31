@@ -16,12 +16,13 @@ body {
 
 #nav, #logo {
   display: inline-block;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 #nav {
   text-align: right;
   width: 100%;
+  /*padding-top: 2rem;*/
 }
 
 
@@ -108,9 +109,31 @@ body {
     padding-left: 10rem;
 }
 
+.team p{
+    padding-bottom: 5rem;
+}
+
 .teamsection{
-    display:inline-block;
+    display: inline-block;
     text-align: center;
-    padding: 1rem;
+}
+
+.partners h2{
+    width: 30%;
+    padding: 5rem;
+    padding-left: 10rem;
+}
+
+footer{
+    text-align:center;
+    padding: 4rem;
+}
+
+footer h2{
+    font-size: 10px;
+}
+
+footer h3{
+    font-size: 8px;
 }
 
