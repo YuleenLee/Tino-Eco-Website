@@ -114,12 +114,29 @@ body {
 .teamsection{
     display: inline-block;
     text-align: center;
+    justify-content: center;
+}
+
+.teamsection img{
+    height: 50%;
+    width: 50%;
 }
 
 .partners h2{
     width: 30%;
     padding: 5rem;
     padding-left: 10rem;
+}
+
+.partners, .partners img {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.partners img{
+    width: 30%;
+    height: 30%;
 }
 
 footer{
