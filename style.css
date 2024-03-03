@@ -158,4 +158,13 @@ footer h3{
 
 .pastevents {
     text-align: center;
+    padding: 1rem;
+}
+
+h2{
+    padding: 1rem;
+}
+
+#eventdescription {
+    padding: 1rem;
 }
