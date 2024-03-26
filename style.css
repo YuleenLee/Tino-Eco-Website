@@ -5,10 +5,6 @@
     text-decoration: none;
     font-family: 'Heebo', sans-serif;
 }
-@font-face {
-    font-family: "lemonmilk";
-    src: url(c:/Users/yuleen/OneDrive/Documents/fonts/lemon_milk/LEMONMILK-Medium.otf);
-}
 
 body {
     width: 100%;
