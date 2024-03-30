@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.image {
+    width: 40%;
+    height: 40%;
+}
+
+section {
+    text-align: center;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.container {
+    display: flex;
+  }
+  
+  .left-half {
+    background-color: #ff9e2c;
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .right-half {
+    background-color: #b6701e;
+    flex: 1;
+    padding: 1rem;
+  }
+
+#aap-logo {
+    display: block;
+}
+
+#nav, #logo {
+    display: inline-block;
+    padding: 1rem;
+  }
+  
+  #nav {
+    text-align: right;
+    width: 100%;
+  }
+  
+  .linknav{
+      padding: 20px;
+      text-decoration: none;
+  }
+  
+  #logo {
+    width: 100px;
+    height: 95px;
+    float: left;
+  }
+  
+  .backgroundimg{
+      background-repeat: no-repeat;
+      height: 60vh;
+      width: 80%;
+      object-fit: cover;
+  }
+  
+  .main-center{
+      text-align: center;
+      margin: auto;
+      top: 10%;
+      background-color: white;
+      padding-top: 2rem;
+      display: flex;
+  }
+
+  .text {
+    position: absolute;
+  }
+  
+  .main-center, .text{
+      z-index: 999;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+  }
+  
+  .text{
+    width: 70%;
+    background-color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-top: 4rem;
+}
+
+.text h1{
+    font-family: "lemonmilk";
+    font-size: 60px;
+}
+
+.text p{
+    padding: 1rem;
+}
+
+.text{
+    width: 50%;
+}
+
+.apply{
+    background-color: #3a3399;
+    border: none;
+    color: white;
+    padding: 13px;
+    margin-top: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: 20%;
+}
+
