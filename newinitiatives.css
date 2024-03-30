@@ -130,3 +130,13 @@ section {
     width: 20%;
 }
 
+.container {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+article {
+  text-align: left;
+}
+
