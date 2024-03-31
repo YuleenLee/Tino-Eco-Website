@@ -161,3 +161,8 @@ h6 {
 p {
   font-size: 15px;
 }
+
+hr {
+  width: 60%;
+  margin: auto;
+}
