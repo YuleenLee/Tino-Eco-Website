@@ -150,3 +150,14 @@ article {
   text-align: left;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
