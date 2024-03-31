@@ -15,8 +15,18 @@ body {
     height: 50%;
 }
 
+.inline-image {
+  float: left;
+  padding: 5px;
+}
+
 section {
     text-align: center;
+}
+
+.column {
+  align-items: center; 
+  float: left;
 }
 
 .test {
@@ -30,13 +40,13 @@ section {
   }
   
   .left-half {
-    background-color: #ff9e2c;
+    /* background-color: #ff9e2c; */
     flex: 1;
     padding: 1rem;
   }
   
   .right-half {
-    background-color: #b6701e;
+    /* background-color: #b6701e; */
     flex: 1;
     padding: 1rem;
   }
