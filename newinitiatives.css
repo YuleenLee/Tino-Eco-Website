@@ -74,42 +74,23 @@ section {
     height: 95px;
     float: left;
   }
-  
-  .backgroundimg{
-      background-repeat: no-repeat;
-      height: 60vh;
-      width: 80%;
-      object-fit: cover;
-  }
+
   
   .main-center{
-      text-align: center;
       margin: auto;
-      top: 10%;
       background-color: white;
-      display: flex;
-  }
-
-  .text {
-    position: absolute;
-  }
-  
-  .main-center, .text{
-      z-index: 999;
-      margin: 0 auto;
-      left: 0;
-      right: 0;
       text-align: center;
+      display: flex;
+      background-image: url('images/FEET.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
   }
   
   .text{
-    width: 70%;
+    width: 100%;
     background-color: #fff;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    margin-top: 4rem;
+    margin: 50px;
+    padding: 50px;
 }
 
 .text h1{
@@ -118,10 +99,6 @@ section {
 
 .text p{
     padding: 1rem;
-}
-
-.text{
-    width: 50%;
 }
 
 .apply{
