@@ -70,6 +70,11 @@ body {
     width: 20%;
 }
 
+.main-body {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
 .team h2{
     font-size: 40px;
 }
@@ -151,4 +156,8 @@ h2{
 #eventdescription, img{
     display: inline-block;
     padding: 1rem;
+}
+
+.homepagetitle {
+    font-size: 50px;
 }
