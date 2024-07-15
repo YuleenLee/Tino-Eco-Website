@@ -41,7 +41,7 @@ body {
       background-size: 100%;
 }
 
-.text, .apply-button {
+.text, #apply-button {
     width: 100%;
     background-color: #fff;
     margin: 50px;
@@ -52,7 +52,7 @@ body {
     font-size: 60px;
 }
 
-.apply-button {
+#apply-button {
     background-color: #3a3399;
     border: none;
     color: white;
@@ -106,12 +106,8 @@ footer h3{
     font-size: 8px;
 }
 
-.pastevents {
+.pastevents, .eventtitle {
     text-align: left;
-    padding: 1rem;
-}
-
-h2{
     padding: 1rem;
 }
 
