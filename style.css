@@ -41,7 +41,7 @@ body {
       background-size: 100%;
 }
 
-.text, .apply{
+.text, .apply-button {
     width: 100%;
     background-color: #fff;
     margin: 50px;
@@ -52,11 +52,7 @@ body {
     font-size: 60px;
 }
 
-.text p{
-    padding: 1rem;
-}
-
-.apply{
+.apply-button {
     background-color: #3a3399;
     border: none;
     color: white;
@@ -73,30 +69,6 @@ body {
 .main-body {
     padding-left: 20rem;
     padding-right: 20rem;
-}
-
-.team h2{
-    font-size: 40px;
-}
-
-.team h2, .team p{
-    padding: 1rem;
-    padding-left: 10rem;
-}
-
-.team p{
-    padding-bottom: 5rem;
-}
-
-.teamsection{
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-}
-
-.teamsection img{
-    height: 50%;
-    width: 50%;
 }
 
 .eventtitle {
@@ -132,10 +104,6 @@ footer h2{
 
 footer h3{
     font-size: 8px;
-}
-
-.about {
-    text-align:center;
 }
 
 .pastevents {
