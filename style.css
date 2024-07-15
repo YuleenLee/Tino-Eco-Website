@@ -44,7 +44,10 @@ body {
 .text, #apply-button {
     width: 100%;
     background-color: #fff;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
     padding: 50px;
 }
 
