@@ -8,11 +8,13 @@
 
 
 .image {
-    width: 50%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .inline-image {
   float: left;
+  width: 50%;
   padding: 5px;
 }
 
@@ -21,8 +23,7 @@ section {
 }
 
 .column {
-  align-items: center; 
-  float: left;
+  align-items: center;
 }
 
 .test {
