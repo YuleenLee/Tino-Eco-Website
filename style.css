@@ -6,6 +6,71 @@
     font-family: 'Heebo', sans-serif;
 }
 
+
+.image {
+    width: 50%;
+}
+
+.inline-image {
+  float: left;
+  padding: 5px;
+}
+
+section {
+    text-align: center;
+}
+
+.column {
+  align-items: center; 
+  float: left;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.left-half {
+  /* background-color: #ff9e2c; */
+  flex: 1;
+  padding: 1rem;
+}
+  
+.right-half {
+  /* background-color: #b6701e; */
+  flex: 1;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+article {
+  text-align: left;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+hr {
+  width: 60%;
+  margin: auto;
+}
+
 body {
     width: 100%;
 }
