@@ -29,7 +29,6 @@ section {
 .test {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
   
 .left-half {
@@ -47,8 +46,10 @@ section {
 .container {
   display: flex;
   text-align: center;
-  width: 50%;
-  margin: auto;
+  width: 60%;
+  /* margin: auto; */
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 article {
@@ -136,8 +137,8 @@ body {
 }
 
 .main-body {
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .eventtitle {
