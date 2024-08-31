@@ -65,7 +65,7 @@ h6 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 hr {
@@ -201,4 +201,15 @@ footer h3{
 .event {
     display: inline-block;
     width: 50%;
+}
+
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.officer {
+  padding: 10px;
+  background-color: #ccc;
 }
