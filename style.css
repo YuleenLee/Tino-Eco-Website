@@ -213,3 +213,14 @@ footer h3{
   padding: 10px;
   background-color: #ccc;
 }
+
+.button {
+  text-decoration: none;
+  margin-top: 13px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  border-radius: 0;
+  background-color: #5BA855;
+  padding: 13px;
+}
