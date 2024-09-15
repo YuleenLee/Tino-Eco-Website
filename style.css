@@ -18,6 +18,10 @@
   padding: 5px;
 }
 
+.small-image {
+  width: 75%;
+}
+
 section {
     text-align: center;
 }
@@ -66,6 +70,7 @@ h6 {
 
 p {
   font-size: 20px;
+  padding: 1rem;
 }
 
 hr {
@@ -223,4 +228,5 @@ footer h3{
   border-radius: 0;
   background-color: #5BA855;
   padding: 13px;
+  display: block;
 }
