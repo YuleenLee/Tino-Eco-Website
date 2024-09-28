@@ -216,7 +216,8 @@ footer h3{
 
 .officer {
   padding: 10px;
-  background-color: #ccc;
+  display: flex;
+  align-items: center;
 }
 
 .button {
